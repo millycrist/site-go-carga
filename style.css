@@ -1,0 +1,73 @@
+/* estilização do cabeçalho */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   background-image: url(img/Go-cargo-img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 85vh;
+   width: 100vw;
+
+}
+.h1{
+   display: flex;
+   justify-content: space-around;
+}
+div{
+    margin-bottom: 2px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;   
+    cursor: pointer;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none; /* Remover o sublinhado dos links */
+}
+
+a{
+    color: white;
+}
+
+.h2{
+    font-size: 200%;
+    color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.button2{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 10px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
